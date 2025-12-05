@@ -26,6 +26,8 @@ Gráficos e grade horaria.
 Dados do formulario. 
 
 Resultados: 
+O algoritmo demonstrou eficácia na alocação da grade horaria, Os gráficos e resultados gerados durante os experimentos encontram-se na pasta results/.
+
 
 ![Gráfico de caixa contendo o número de matrícula de cada soluções com roleta](results/graphs/rboxplot.png)
 ![{Gráfico de caixa contendo o número de matrícula de cada soluções com torneio](results/graphs/tboxplot.png)
@@ -45,13 +47,15 @@ Clone o repositório:
 ```console
 
 git clone https://github.com/seu-usuario/nome-do-repo.git
-cd nome-do-repo´´´
+cd nome-do-repo
+```
 
 Sincronize o ambiente: Este comando criará o ambiente virtual e instalará todas as dependências necessárias automaticamente.
 
 ```console
 
-uv sync´´´
+uv sync
+```
 
 Configure os parâmetros (Opcional): Edite o arquivo config.yaml caso queira alterar os parâmetros da heurística (população, gerações, etc.).
 
@@ -59,14 +63,15 @@ Execute a heurística: Utilize o uv run para rodar o script principal dentro do 
 
 ```console
 
-uv run main.py´´´
+uv run main.py
+```
 
 Gerar grade visual: Para exportar a grade de uma solução específica:
 
 ```console
 
-uv run generate_grade.py´´´
+uv run generate_grade.py
+```
 
-Resultados Obtidos
-    Os gráficos e resultados gerados durante os experimentos encontram-se na pasta results/. O algoritmo demonstrou eficácia na alocação da grade horaria
+
 
