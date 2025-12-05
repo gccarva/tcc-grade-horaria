@@ -30,6 +30,7 @@ Resultados:
 ![Gráfico de caixa contendo o número de matrícula de cada soluções com roleta](results/graphs/rboxplot.png)
 ![{Gráfico de caixa contendo o número de matrícula de cada soluções com torneio](results/graphs/tboxplot.png)
 ![Evolução da melhor resposta.](results/graphs/evolution.png)
+
 Como Executar
 Este projeto utiliza o uv para gerenciamento de dependências e ambientes virtuais, garantindo uma execução rápida e reprodutível.
 
@@ -41,28 +42,30 @@ uv instalado (Caso não tenha, instale com pip install uv ou consulte a document
 Passo a Passo
 Clone o repositório:
 
-Bash
+```console
 
 git clone https://github.com/seu-usuario/nome-do-repo.git
-cd nome-do-repo
+cd nome-do-repo´´´
+
 Sincronize o ambiente: Este comando criará o ambiente virtual e instalará todas as dependências necessárias automaticamente.
 
 ```console
 
-uv sync```
+uv sync´´´
+
 Configure os parâmetros (Opcional): Edite o arquivo config.yaml caso queira alterar os parâmetros da heurística (população, gerações, etc.).
 
 Execute a heurística: Utilize o uv run para rodar o script principal dentro do ambiente isolado:
 
 ```console
 
-uv run main.py```
+uv run main.py´´´
 
 Gerar grade visual: Para exportar a grade de uma solução específica:
 
 ```console
 
-uv run generate_grade.py```
+uv run generate_grade.py´´´
 
 Resultados Obtidos
     Os gráficos e resultados gerados durante os experimentos encontram-se na pasta results/. O algoritmo demonstrou eficácia na alocação da grade horaria
