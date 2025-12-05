@@ -1,0 +1,28 @@
+semesters_csv_path: data/semesters.csv
+professors_csv_path: data/professors.csv
+students_data_csv_path: data/students_data.csv
+student_restrictions_csv_path: data/student_restrictions.csv
+professor_constraints_csv_path: data/professor_constraints.csv
+course_properties_csv_path: data/course_properties.csv
+swappable_courses_csv_path: data/swappable_courses.csv
+
+
+crossover_prob: 0.8
+mutation_prob: 0.2
+selection_method: tournament
+mutation_method: uniform
+population_size: 100000
+tournament_size: 100
+num_generations: 300
+num_elites: 1000
+num_runs: 5
+
+
+
+
+
+limit_days_professor: 4
+punishment_limit_days_professor: 500
+all_day_start_semester: 5
+punishment_gap_classes: 500
+punishmente_prop_classes: 500

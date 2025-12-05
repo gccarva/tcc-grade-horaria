@@ -1,0 +1,32 @@
+[project]
+name = "tcc_grade_horaria"
+version = "1.0.0"
+description = "tcc grade horaria"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "deap>=1.4.3",
+    "frozendict>=2.4.6",
+    "mealpy",
+    "networkx>=3.5",
+    "numba>=0.61.2",
+    "numpy",
+    "pandas>=2.3.2",
+    "pyyaml>=6.0.3",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.11",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "N"]
+ignore = []
+
+[tool.ruff.format]
+quote-style = "double"
