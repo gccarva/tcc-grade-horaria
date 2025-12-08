@@ -1,7 +1,7 @@
 
 Este repositório contém o código-fonte, dados e resultados desenvolvidos para o Trabalho de Conclusão de Curso (TCC) focado na otimização de grades horárias. O projeto utiliza uma abordagem baseada em Algoritmos Genéticos para resolver conflitos e aumentar a eficiência na alocação de disciplinas.
 
-#Estrutura do Repositório
+# Estrutura do Repositório
 
 Abaixo está a descrição dos principais arquivos e diretórios deste projeto:
 
