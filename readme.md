@@ -1,11 +1,11 @@
 
 Este repositório contém o código-fonte, dados e resultados desenvolvidos para o Trabalho de Conclusão de Curso (TCC) focado na otimização de grades horárias. O projeto utiliza uma abordagem baseada em Algoritmos Genéticos para resolver conflitos e aumentar a eficiência na alocação de disciplinas.
 
-#Estrutura do Repositório
+# Estrutura do Repositório
 
 Abaixo está a descrição dos principais arquivos e diretórios deste projeto:
 
-#Execução e Código Fonte
+# Execução e Código Fonte
 
 main.py: O arquivo principal. É responsável por orquestrar a execução da heurística. Ele chama as funções de carregamento, executa o algoritmo genético e salva os resultados.
 
@@ -13,11 +13,11 @@ schedule_data_loader.py: Responsável por ler os dados brutos dos arquivos CSV n
 
 generate_grade.py: Script utilitário pós-processamento. Dada uma solução encontrada pelo algoritmo, ele gera uma a grade horária em formato CSV.
 
-#Configuração
+# Configuração
 
 config.yaml: Arquivo de configuração central. Nele é possível alterar os parâmetros da heurística alem dos caminhos para os dados para o algoritmo genetico 
 
-#Dados e Resultados
+# Dados e Resultados
 
 data/: Contém os arquivos .csv de entrada necessários para o funcionamento do algoritmo
 
@@ -29,7 +29,7 @@ Gráficos e grade horaria.
 
 Dados do formulario. 
 
-#Resultados: 
+# Resultados: 
 
 O algoritmo demonstrou eficácia na alocação da grade horaria, Os gráficos e resultados gerados durante os experimentos encontram-se na pasta results/.
 
@@ -38,11 +38,11 @@ O algoritmo demonstrou eficácia na alocação da grade horaria, Os gráficos e 
 ![{Gráfico de caixa contendo o número de matrícula de cada soluções com torneio](results/graphs/tboxplot.png)
 ![Evolução da melhor resposta.](results/graphs/evolution.png)
 
-#Como Executar
+# Como Executar
 
 Este projeto utiliza o uv para gerenciamento de dependências e ambientes virtuais, garantindo uma execução rápida e reprodutível.
 
-#Pré-requisitos
+# Pré-requisitos
 
 Python 3.x
 
