@@ -22,7 +22,7 @@ num_runs: 5
 
 
 limit_days_professor: 4
-punishment_limit_days_professor: 500
+punishment_limit_days_professor: 
 all_day_start_semester: 5
-punishment_gap_classes: 500
-punishmente_prop_classes: 500
+punishment_gap_classes: 
+punishmente_pref_classes: 
