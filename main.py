@@ -39,12 +39,12 @@ def fitness(individual,config,schedule_data):
             lecture = get_hours_from_bitmask(lectureb)
 
             if len(lecture) > 1 and ((lecture[0]-1) % 4 != (lecture[1]-1) % 4 -1) and abs(lecture[0]-lecture[1]) != 1:
-                answer -= config["punishmente_pref_classes"]
+                answer -= config["punishment_pref_classes"]
         if properties.get('duration_rule') == 'double_sep':
             lectureb = schedule.get(course_name)
             lecture = get_hours_from_bitmask(lectureb)
             if len(lecture) > 1 and (lecture[0]-1) // 4 == (lecture[1]-1) // 4 and abs(lecture[0]-lecture[1]) == 1:
-                answer -= config["punishmente_pref_classes"]
+                answer -= config["punishment_pref_classes"]
     for professor in range(1,schedule_data.get_len_professor()+1):
         lectures_days = [0,0,0,0,0]
         cont_lectures_days = [0,0,0,0,0]
