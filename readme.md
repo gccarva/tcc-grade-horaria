@@ -11,11 +11,11 @@ main.py: O arquivo principal. É responsável por orquestrar a execução da heu
 
 schedule_data_loader.py: Responsável por ler os dados brutos dos arquivos CSV na pasta data/, processá-los e formatá-los para serem consumidos pelo algoritmo genético.
 
-generate_grade.py: Script utilitário pós-processamento. Dada uma solução encontrada pelo algoritmo, ele gera uma a grade horária em formato CSV.
+generate_grade.py: Script utilitário de pós-processamento. Dada uma solução encontrada pelo algoritmo, ele gera uma grade horária em formato CSV.
 
 # Configuração
 
-config.yaml: Arquivo de configuração central. Nele é possível alterar os parâmetros da heurística alem dos caminhos para os dados para o algoritmo genetico 
+config.yaml: Arquivo de configuração central. Nele, é possível alterar os parâmetros da heurística, além dos caminhos para os dados para o algoritmo genético. 
 
 # Dados e Resultados
 
@@ -25,17 +25,17 @@ results/: Diretório onde são salvos os outputs do trabalho, incluindo:
 
 Logs das execuções.
 
-Gráficos e grade horaria.
+Gráficos e grade horária.
 
-Dados do formulario. 
+Dados do formulário. 
 
 # Resultados: 
 
-O algoritmo demonstrou eficácia na alocação da grade horaria, Os gráficos e resultados gerados durante os experimentos encontram-se na pasta results/.
+O algoritmo demonstrou eficácia na alocação da grade horária. Os gráficos e resultados gerados durante os experimentos encontram-se na pasta results/.
 
 
-![Gráfico de distribuição contendo o número de matrícula de cada soluções com roleta](results/graphs/rscatterplot.png)
-![Gráfico de distribuição contendo o número de matrícula de cada soluções com torneio](results/graphs/tscatterplot.png)
+![Gráfico de distribuição contendo o número de matrícula de cada solução com roleta.](results/graphs/rscatterplot.png)
+![Gráfico de distribuição contendo o número de matrícula de cada solução com torneio.](results/graphs/tscatterplot.png)
 ![Evolução da melhor resposta.](results/graphs/evolution.png)
 
 # Como Executar
