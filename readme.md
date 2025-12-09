@@ -66,7 +66,7 @@ uv sync
 
 Configure os parâmetros (Opcional): Edite o arquivo config.yaml caso queira alterar os parâmetros da heurística (população, gerações, etc.).
 
-Execute a heurística: Utilize o uv run para rodar o script principal dentro do ambiente isolado:
+Execute a heurística: Utilize o uv run para rodar o script principal no ambiente isolado:
 
 ```console
 
